@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://kit.fontawesome.com/3b3c3e8036.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+    <div class="bg-container">
+        <div class="side-bar  ">
+            <h1 class="side-bar-title">LOGO</h1>
+            <div class="options-container">
+                <div class="option-container">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-newspaper color" viewBox="0 0 16 16">
+                        <path d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5v-11zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5H12z" />
+                        <path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z" />
+                    </svg>
+                    <p class="option-text">Portfolio</p>
+                </div>
+                <div class="option-container">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people color" viewBox="0 0 16 16">
+                        <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z" />
+                    </svg>
+                    <p class="option-text">Wolfpackets</p>
+                </div>
+                <div class="option-container active-option">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-wallet2 color" viewBox="0 0 16 16">
+                        <path d="M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1 1.432-1.499L12.136.326zM5.562 3H13V1.78a.5.5 0 0 0-.621-.484L5.562 3zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z" />
+                    </svg>
+                    <p class="option-text">Wallet</p>
+                </div>
+                <div class="option-container">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search color" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                    </svg>
+                    <p class="option-text">Transparency</p>
+                </div>
+                <div class="option-container">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-building color" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694 1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z" />
+                        <path d="M2 11h1v1H2v-1zm2 0h1v1H4v-1zm-2 2h1v1H2v-1zm2 0h1v1H4v-1zm4-4h1v1H8V9zm2 0h1v1h-1V9zm-2 2h1v1H8v-1zm2 0h1v1h-1v-1zm2-2h1v1h-1V9zm0 2h1v1h-1v-1zM8 7h1v1H8V7zm2 0h1v1h-1V7zm2 0h1v1h-1V7zM8 5h1v1H8V5zm2 0h1v1h-1V5zm2 0h1v1h-1V5zm0-2h1v1h-1V3z" />
+                    </svg>
+                    <p class="option-text">All Properties</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="bg m-2 ">
+            <div class="d-flex flex-row shadow ">
+                <h class="m-2"> Overview </h>
+                <h class="m-2"> Savings </h>
+                <h class="m-2"> Investments </h>
+            </div>
+            <div>
+                <div class="m-2 p-2 d-flex ">
+                    <div class="mr-2 ">
+                        <h class="bold"> Total Balance <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle-fill" viewBox="0 0 16 16">
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+                            </svg> : </br> </h>
+                        <h class="bold"> $20.00 </h>
+                    </div>
+                    <div class="ml-3">
+                        <h class="bold"> Wallet Address </br> </h>
+                        <div class="d-flex justify-content-end ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-upc-scan" viewBox="0 0 16 16">
+                                <path d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1h-3zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5zM.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5zM3 4.5a.5.5 0 0 1 1 0v7a.5.5 0 0 1-1 0v-7zm2 0a.5.5 0 0 1 1 0v7a.5.5 0 0 1-1 0v-7zm2 0a.5.5 0 0 1 1 0v7a.5.5 0 0 1-1 0v-7zm2 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-7zm3 0a.5.5 0 0 1 1 0v7a.5.5 0 0 1-1 0v-7z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card shadow p-3 mb-2">
+                    <h class="checking bold"> Checking </h>
+                    <h> Cash :<span class="amount">$20.00</span> </h>
+                    </h>
+                    <h class=" bold"> Buy Coins </h>
+                    <div>
+                        <input id="userInput" type="text" class="user-input " />
+                        <button class="btn btn-primary "> Buy </button>
+                    </div>
+                </div>
+
+                <div class="card shadow p-3">
+                    <h class="checking bold"> Savings </h>
+                    <h> Invested :<span class="amount">$20.00</span> </h>
+                    <h> Total Payout <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle-fill" viewBox="0 0 16 16">
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+                        </svg> : <span class="amount">$27.00</span> </h>
+                    </h>
+                </div>
+
+
+                <div class="card shadow p-3 mt-2">
+                    <h class="checking bold"> Transfers </h>
+                    <h> Paypal : Bank Account </h>
+                    <h class=" bold"> Sell Coins </h>
+                    <div>
+                        <input id="userInput" type="text" class="user-input " />
+                        <button class="btn btn-primary "> Sell </button>
+                    </div>
+                </div>
+
+
+                <div class="card shadow p-3 mt-2">
+                    <h class="checking bold"> Investment </h>
+                    <h> Invested :<span class="amount">$20.00</span> </h>
+                    <h> contributed : <span class="amount">$20.00</span> </h>
+                </div>
+            </div>
+
+            <div>
+                <h1 class="heading mt-2"> Avilable Assets </h1>
+
+
+                <div class="text-center p-2 m-3 mt-2 shadow">
+                    <img src="https://www.statnews.com/wp-content/uploads/2020/07/1-s2.0-S0735675720302746-gr1_lrg-768x432.jpg" class="image" />
+                    <h1 class="heading mt-1"> Potential Covid-19mCure: Clinical Trial </h1>
+                    <p1 class="para"> Description: </p1>
+                    <p class="paragraph"> A well known,safe,generic medication that has been used for decades has been shown to ... </p>
+                </div>
+
+
+                <div class="text-center p-2 m-3 mt-2 shadow">
+                    <img src="https://www.incimages.com/uploaded_files/image/1920x1080/getty_578108630_366457.jpg" class="image" />
+                    <h1 class="heading mt-1"> Mission </h1>
+                    <p1 class="para"> Description: </p1>
+                    <p class="paragraph"> Ownership in Minuteman is decentralized and distributed democratically across its ... </p>
+                </div>
+
+
+                <div class="text-center p-2 m-3 mt-2 shadow">
+                    <img src="https://images.squarespace-cdn.com/content/v1/4fcf5c8684aef9ce6e0a44b0/1548424278660-RHZQDZN59FV7MBPVCSAD/ke17ZwdGBToddI8pDm48kA_SSaoz4elkj-HsZd8gX3Z7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UWPwZyNcweDIvdeL5kotwkIXjs9g0WibSO_cU-Ijy4Pwg6poS-6WGGnXqDacZer4yQ/blue+master+bedroom?format=750w" class="image" />
+                    <h1 class="heading mt-1"> 20922 Avalon Drive </h1>
+                    <p1 class="para"> Address: </p1>
+                    <p class="paragraph"> 8801 Holly Road Tullahoma, TN 37388 </p>
+                </div>
+
+
+                <div class="text-center p-2 m-3 mt-2 mb-2 shadow">
+                    <img src="https://rentpath-res.cloudinary.com/w_204,h_169,t_rp,cs_tinysrgb,fl_force_strip,c_fill/e_unsharp_mask:50,q_auto/2049ff95801f096008ad528808901791" class="image" />
+                    <h1 class="heading mt-1"> 17456 </h1>
+                    <p1 class="para"> Address: </p1>
+                    <p class="paragraph"> 23 North Briarwood Avenue Willamsburg, VA 23185 </p>
+                </div>
+            </div>
+
+            <div class="m-3">
+                <h1 class="heading1"> Recent Transactions </h1>
+                <div class="card mt-2 p-3">
+                    <h> <span class="amount">Date </span> : 09 Mar,2020</h>
+                    <h> <span class="amount">Transaction </span> : 20922 Avalon Drive(Jon Hea..) </br> <span class="amount"> -Dividend </span> </h>
+                    <h> <span class="amount">Amount </span>: <span class="amount2"> $10 </span> </h>
+                </div>
+
+                <div class="card mt-2 p-3">
+                    <h> <span class="amount">Date </span> : 09 Mar,2020</h>
+                    <h> <span class="amount">From </span> : Robert D. </br> <span class="amount"> -Dividend </span> </h>
+                    <h> <span class="amount">Freedom Coins </span>: <span class="amount2"> 100 </span> </h>
+                </div>
+
+                <div class="card mt-2 p-3">
+                    <h> <span class="amount">Date </span> : 09 Mar,2020</h>
+                    <h> <span class="amount">From </span> : Robert D. </br> <span class="amount"> -Dividend </span> </h>
+                    <h> <span class="amount">Freedom Coins </span>: <span class="amount2"> 100 </span> </h>
+                </div>
+
+                <div class="card mt-2 p-3">
+                    <h> <span class="amount">Date </span> : 09 Mar,2020</h>
+                    <h> <span class="amount">From </span> : Robert D. </br> <span class="amount"> -Dividend </span> </h>
+                    <h> <span class="amount">Freedom Coins </span>: <span class="amount2"> 100 </span> </h>
+                </div>
+
+                <div class="card mt-2 p-3">
+                    <h> <span class="amount">Date </span> : 09 Mar,2020</h>
+                    <h> <span class="amount">From </span> : Robert D. </br> <span class="amount"> -Dividend </span> </h>
+                    <h> <span class="amount">Freedom Coins </span>: <span class="amount2"> 100 </span> </h>
+                </div>
+
+                <div class="card mt-2 p-3">
+                    <h> <span class="amount">Date </span> : 09 Mar,2020</h>
+                    <h> <span class="amount">From </span> : Robert D. </br> <span class="amount"> -Dividend </span> </h>
+                    <h> <span class="amount">Freedom Coins </span>: <span class="amount2"> 100 </span> </h>
+                </div>
+
+                <h1 class="heading mt-2"> View More </h1>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
